@@ -235,6 +235,12 @@ body, header {
   padding: 0;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 60%;
+}
+
 header {
   height: 100vh;
 }
@@ -256,7 +262,11 @@ header {
 
 .navContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+.navContainer .proniaLogo {
+  width: 5rem;
 }
 
 .navContainer ul {
@@ -270,5 +280,5 @@ header {
 }
 
 .navContainer .bagIcon {
-  width: 15px;
+  width: 1.5rem;
 }

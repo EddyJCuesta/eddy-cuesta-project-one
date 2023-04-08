@@ -220,3 +220,17 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+
+body, header {
+  margin: 0;
+  padding: 0;
+}

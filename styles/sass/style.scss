@@ -24,3 +24,17 @@ html { box-sizing: border-box;}
 // Sub-Heading Text (60% OFF)
 // Rubik,Light(300)
 
+// GENERIC STYLING
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+body, header {
+    margin: 0;
+    padding: 0;
+}

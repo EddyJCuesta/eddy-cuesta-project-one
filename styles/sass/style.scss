@@ -53,20 +53,25 @@ header {
 .discountBar {
     background-color: #abd373;
     color: white;
+}
+.discountBar .wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .cadEng {
     display: flex;
+    width: 10%;
+    justify-content: space-around;
 }
 .cadEng p {
-    margin-right: 20px;
+    padding-left: 16px;
 }
 
 .navContainer {
     display: flex;
     justify-content: space-between;
+    padding: 20px 0px 20px 0px;
 }
 
 .navContainer .proniaLogo {
@@ -75,12 +80,15 @@ header {
 
 .navContainer ul {
     display: flex;
+    width: 30%;
+    justify-content: space-evenly;
     list-style: none;
     padding-left: 0;
 }
 
 .navContainer li a {
     text-decoration: none;
+    color: #000;
 }
 
 .navContainer .bagIcon {

@@ -101,4 +101,11 @@ header .newPlantBackground {
 
 .newPlantBackground .wrapper {
     display: flex;
+    justify-content: space-between;
+}
+
+.newPlantText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

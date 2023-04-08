@@ -95,3 +95,10 @@ header {
     width: 1.5rem;
 }
 
+header .newPlantBackground {
+    background-color: #F8EEE5;
+}
+
+.newPlantBackground .wrapper {
+    display: flex;
+}

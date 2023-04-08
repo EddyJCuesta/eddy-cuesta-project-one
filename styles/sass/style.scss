@@ -38,3 +38,23 @@ body, header {
     margin: 0;
     padding: 0;
 }
+
+// THIS IS THE HEADER SECTION
+header {
+    height: 100vh;
+}
+
+.discountBar {
+    background-color: #abd373;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cadEng {
+    display: flex;
+}
+.cadEng p {
+    margin-right: 20px;
+}
+

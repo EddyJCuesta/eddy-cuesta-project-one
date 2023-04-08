@@ -58,3 +58,22 @@ header {
     margin-right: 20px;
 }
 
+.navContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navContainer ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navContainer li a {
+    text-decoration: none;
+}
+
+.navContainer .bagIcon {
+    width: 15px;
+}
+

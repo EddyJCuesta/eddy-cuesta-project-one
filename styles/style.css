@@ -335,8 +335,21 @@ header .newPlantBackground {
 
 .shipPayServe.wrapper {
   display: flex;
+  justify-content: space-between;
 }
 
 .iconCar, .iconCred, .iconServe {
-  width: 3rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.shipPayServe.wrapper .iconText {
+  display: block;
+}
+
+.iconContainer {
+  display: flex;
+  border: 2px dotted #abd373;
+  width: 32%;
+  padding: 10px;
 }

@@ -29,7 +29,7 @@ html {
     font-size: 62.5%;
 }
 
-body {
+body, p {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
 }
@@ -43,6 +43,15 @@ body, header {
     max-width: 1200px;
     margin: 0 auto;
     width: 60%;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #abd373;
+    color: #fff;
 }
 
 // THIS IS THE HEADER SECTION
@@ -97,6 +106,7 @@ header {
 
 header .newPlantBackground {
     background-color: #F8EEE5;
+    padding: 40px 0px 40px 0px;
 }
 
 .newPlantBackground .wrapper {
@@ -112,10 +122,16 @@ header .newPlantBackground {
 
 .newPlantText h1 {
     font-size: 7rem;
+    margin-bottom: 0px;
 }
 
 .newPlantText .sixtyFive {
     display: block;
     font-weight: 300;
     font-size: 4rem;
+}
+
+.newPlantText p {
+    font-size: 1.79rem;
+    margin-bottom: 50px;
 }

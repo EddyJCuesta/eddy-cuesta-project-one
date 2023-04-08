@@ -332,3 +332,11 @@ header .newPlantBackground {
   font-size: 1.79rem;
   margin-bottom: 50px;
 }
+
+.shipPayServe.wrapper {
+  display: flex;
+}
+
+.iconCar, .iconCred, .iconServe {
+  width: 3rem;
+}

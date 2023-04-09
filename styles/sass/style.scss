@@ -101,7 +101,7 @@ header {
     color: #000;
 }
 
-.navContainer .bagIcon {
+.bagIcon, .cartIcon {
     width: 1.5rem;
 }
 
@@ -163,4 +163,18 @@ header .newPlantBackground {
     width: 31%;
     padding: 10px 0px 5px 40px;
     border-radius: 6px;
+}
+
+// THIS IS THE OUR PRODUCTS SECTION
+section .ourProduct {
+    height: 100vh;
+}
+
+.ourProdContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartIcon {
+    display: block;
 }

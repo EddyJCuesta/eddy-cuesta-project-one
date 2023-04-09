@@ -228,6 +228,7 @@ html {
 body, p {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
+  font-size: 1.3rem;
 }
 
 body, header {
@@ -336,20 +337,27 @@ header .newPlantBackground {
 .shipPayServe.wrapper {
   display: flex;
   justify-content: space-between;
+  padding-top: 60px;
 }
 
 .iconCar, .iconCred, .iconServe {
-  width: 2rem;
-  height: 2rem;
+  width: 4rem;
+  height: 4rem;
+  align-self: center;
+  margin-right: 20px;
 }
 
 .shipPayServe.wrapper .iconText {
   display: block;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .iconContainer {
   display: flex;
   border: 2px dotted #abd373;
-  width: 32%;
-  padding: 10px;
+  width: 31%;
+  padding: 10px 0px 5px 40px;
+  border-radius: 6px;
 }

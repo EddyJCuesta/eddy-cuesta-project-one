@@ -170,11 +170,14 @@ section .ourProduct {
     height: 100vh;
 }
 
-.ourProdContainer {
+.productImgContainer {
     display: flex;
     flex-wrap: wrap;
 }
 
 .cartIcon {
     display: block;
+}
+.imageBox {
+    width: 25%;
 }

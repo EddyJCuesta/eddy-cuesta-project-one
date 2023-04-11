@@ -413,10 +413,22 @@ h2 {
   flex-wrap: wrap;
 }
 
+.iconBox {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 1px 1px 1px rgba(32, 30, 30, 0.1215686275);
+  border: none;
+  padding: 7px;
+}
+
 .cartIcon {
   display: block;
 }
 
 .imageBox {
   width: 25%;
+}
+
+.ourProduct .dollarColor {
+  color: #abd373;
 }

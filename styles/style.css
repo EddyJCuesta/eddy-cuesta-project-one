@@ -337,7 +337,7 @@ header .newPlantBackground {
 .shipPayServe.wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 .iconCar, .iconCred, .iconServe {
@@ -364,6 +364,20 @@ header .newPlantBackground {
 
 section .ourProduct {
   height: 100vh;
+}
+
+h2 {
+  margin-top: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ourProductButtons {
+  text-align: center;
+}
+
+.ourProductButtons button {
+  margin: 30px 10px 40px 10px;
 }
 
 .productImgContainer {

@@ -372,6 +372,34 @@ h2 {
   font-weight: bold;
 }
 
+.ourProduct h2 {
+  position: relative;
+}
+
+.ourProduct h2:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #abd373;
+  position: absolute;
+  left: 36%;
+  top: 50%;
+  z-index: -2;
+}
+
+.ourProduct h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #abd373;
+  position: absolute;
+  right: 36%;
+  top: 50%;
+  z-index: -2;
+}
+
 .ourProductButtons {
   text-align: center;
 }

@@ -367,6 +367,7 @@ section .ourProduct {
 }
 
 h2 {
+  font-size: 3rem;
   margin-top: 60px;
   text-align: center;
   font-weight: bold;
@@ -383,7 +384,7 @@ h2 {
   height: 2px;
   background: #abd373;
   position: absolute;
-  left: 36%;
+  left: 32%;
   top: 50%;
   z-index: -2;
 }
@@ -395,7 +396,7 @@ h2 {
   height: 2px;
   background: #abd373;
   position: absolute;
-  right: 36%;
+  right: 32%;
   top: 50%;
   z-index: -2;
 }
@@ -499,4 +500,12 @@ h2 {
   background-image: url(../assets/b3.jpeg);
   background-repeat: no-repeat;
   margin-left: 0px;
+}
+
+.latestPostSection {
+  height: 100vh;
+}
+
+.latestPostTitle {
+  text-align: center;
 }

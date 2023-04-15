@@ -249,15 +249,18 @@ h2 {
 height: 30rem;
 width: calc(66% - 15px - 15px);
 margin: 15px;
+background-position: right;
 }
 
 .cactusImgOne {
-    background-image: url(../../assets/b1.jpeg);
+    background-image: url(../assets/b1.jpeg);
+    background-repeat: no-repeat;
     margin-left: 0px;
 }
 
 .cactusImgTwo {
-    background-image: url(../../assets/b2.jpeg);
+    background-image: url(../assets/b4.jpeg);
+    background-repeat: no-repeat;
     margin-right: 0px;
 }
 
@@ -265,14 +268,17 @@ margin: 15px;
     height: 30rem;
     width: calc(33% - 15px - 15px);
     margin: 15px;
+    background-position: bottom;
 }
 
 .plantPortOne {
-    background-image: url(../../assets/b3.jpeg);
+    background-image: url(../assets/b2.jpeg);
+    background-repeat: no-repeat;
     margin-right: 0px;
 }
 
 .plantPortTwo {
-    background-image: url(../../assets/b4.jpeg);
+    background-image: url(../assets/b3.jpeg);
+    background-repeat: no-repeat;
     margin-left: 0px;
 }

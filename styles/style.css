@@ -512,6 +512,31 @@ h2 {
 
 .latestPostTitle h2 {
   margin: 0px 0px 40px 0px;
+  position: relative;
+}
+
+.latestPostTitle h2:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #abd373;
+  position: absolute;
+  left: 32%;
+  top: 50%;
+  z-index: -2;
+}
+
+.latestPostTitle h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #abd373;
+  position: absolute;
+  right: 32%;
+  top: 50%;
+  z-index: -2;
 }
 
 .postFlexContainer {

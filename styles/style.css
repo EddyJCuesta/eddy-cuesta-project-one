@@ -610,6 +610,10 @@ footer {
   margin-top: 0px;
 }
 
+.flexLinks ul li {
+  list-style: none;
+}
+
 .number {
   display: block;
 }

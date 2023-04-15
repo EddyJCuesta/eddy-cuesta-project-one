@@ -528,6 +528,7 @@ h2 {
 .loremText {
   width: 24rem;
   line-height: 30px;
+  margin-bottom: 40px;
 }
 
 .contentPost {

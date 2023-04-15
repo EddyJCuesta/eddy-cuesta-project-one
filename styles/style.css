@@ -503,7 +503,7 @@ h2 {
 }
 
 .latestPostSection {
-  height: 70vh;
+  height: 80vh;
 }
 
 .latestPostTitle {
@@ -580,7 +580,9 @@ h2 {
 }
 
 footer {
-  height: 70vh;
+  height: 38vh;
+  background-image: url(../assets/footer.jpg);
+  background-size: cover;
 }
 
 .dribble {
@@ -599,4 +601,8 @@ footer {
 
 .flexLinks {
   display: flex;
+}
+
+.flexLinks ul {
+  margin-top: 0px;
 }

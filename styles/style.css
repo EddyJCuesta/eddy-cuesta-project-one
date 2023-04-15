@@ -524,6 +524,16 @@ h2 {
 .postBackgroundTwo,
 .postBackgroundThree {
   background-color: #f6f7fb;
+  border-radius: 10px;
+}
+
+.admin {
+  display: flex;
+}
+
+.admin p {
+  margin-right: 20px;
+  color: #abd373;
 }
 
 .latestPostSection h3 span {

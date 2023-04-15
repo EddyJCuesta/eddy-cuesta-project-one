@@ -235,3 +235,44 @@ h2 {
     color: #abd373;
 }
 // THIS IS THE SHOP NOW GALLERY
+
+.shopGallary {
+    height: 100vh;
+}
+
+.shopNowContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cactusImgOne, .cactusImgTwo {
+height: 30rem;
+width: calc(66% - 15px - 15px);
+margin: 15px;
+}
+
+.cactusImgOne {
+    background-image: url(../../assets/b1.jpeg);
+    margin-left: 0px;
+}
+
+.cactusImgTwo {
+    background-image: url(../../assets/b2.jpeg);
+    margin-right: 0px;
+}
+
+.plantPortOne, .plantPortTwo {
+    height: 30rem;
+    width: calc(33% - 15px - 15px);
+    margin: 15px;
+}
+
+.plantPortOne {
+    background-image: url(../../assets/b3.jpeg);
+    margin-right: 0px;
+}
+
+.plantPortTwo {
+    background-image: url(../../assets/b4.jpeg);
+    margin-left: 0px;
+}

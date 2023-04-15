@@ -237,12 +237,23 @@ h2 {
 // THIS IS THE SHOP NOW GALLERY
 
 .shopGallary {
-    height: 100vh;
+    height: 70vh;
+    margin: 80px 0px 0px 0px;
 }
 
 .shopNowContainer {
     display: flex;
     flex-wrap: wrap;
+}
+
+.shopNowContainer h2 span {
+    display: block;
+    text-align: left;
+}
+
+.shopNowContainer h2 {
+    font-size: 3rem;
+    margin-top: 0px;
 }
 
 .cactusImgOne, .cactusImgTwo {
@@ -254,6 +265,7 @@ h2 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    padding: 0px 0px 10px 50px;
 }
 
 .cactusImgOne {
@@ -275,8 +287,9 @@ h2 {
     background-position: bottom;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .plantPortOne {

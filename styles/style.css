@@ -512,9 +512,12 @@ h2 {
 
 .postFlexContainer {
   display: flex;
+  justify-content: space-between;
 }
 
-.postBackground {
+.postBackgroundOne,
+.postBackgroundTwo,
+.postBackgroundThree {
   background-color: #f6f7fb;
 }
 
@@ -525,4 +528,12 @@ h2 {
 .loremText {
   width: 24rem;
   line-height: 30px;
+}
+
+.contentPost {
+  padding: 10px 20px 30px 20px;
+}
+
+.contentPost img {
+  width: 28rem;
 }

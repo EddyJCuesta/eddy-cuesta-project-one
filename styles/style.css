@@ -456,7 +456,7 @@ h2 {
 
 .cactusImgOne, .cactusImgTwo {
   height: 30rem;
-  width: calc(66% - 15px - 15px);
+  width: 66%;
   margin: 15px;
   background-position: right;
   display: flex;
@@ -480,7 +480,7 @@ h2 {
 
 .plantPortOne, .plantPortTwo {
   height: 30rem;
-  width: calc(33% - 15px - 15px);
+  width: calc(34% - 15px - 15px);
   margin: 15px;
   background-position: bottom;
   display: flex;
@@ -508,4 +508,12 @@ h2 {
 
 .latestPostTitle {
   text-align: center;
+}
+
+.postFlexContainer {
+  display: flex;
+}
+
+.postBackground {
+  background-color: #f6f7fb;
 }

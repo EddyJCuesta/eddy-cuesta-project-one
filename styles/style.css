@@ -578,3 +578,25 @@ h2 {
 .contentPost img {
   width: 28rem;
 }
+
+footer {
+  height: 70vh;
+}
+
+.dribble {
+  width: 20px;
+  height: 20px;
+}
+
+.footerContainer {
+  display: flex;
+}
+
+.footerContainer p {
+  width: 25rem;
+  line-height: 2.5rem;
+}
+
+.flexLinks {
+  display: flex;
+}

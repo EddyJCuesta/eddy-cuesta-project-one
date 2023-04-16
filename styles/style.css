@@ -581,8 +581,13 @@ h2 {
 
 footer {
   height: 43vh;
+}
+
+.backgroundImg {
   background-image: url(../assets/footer.jpg);
-  background-size: cover;
+  background-size: 174rem 47rem;
+  background-repeat: no-repeat;
+  height: 43vh;
 }
 
 .dribble {
@@ -592,7 +597,7 @@ footer {
 
 .footerContainer {
   display: flex;
-  justify-content: baseline;
+  justify-content: space-between;
   align-items: center;
   height: 38vh;
 }
@@ -608,6 +613,8 @@ footer {
 
 .flexLinks {
   display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .flexLinks ul {

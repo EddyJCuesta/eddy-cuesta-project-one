@@ -660,3 +660,35 @@ footer {
   color: #abd373;
   padding-left: 5px;
 }
+
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .navContainer {
+    padding: 10px 0px 10px 0px;
+  }
+  header .newPlantBackground {
+    padding: 0px;
+  }
+  .newPlantText h1 {
+    font-size: 5rem;
+  }
+  .newPlantText p {
+    font-size: 1.6rem;
+  }
+  .shipPayServe.wrapper {
+    padding-top: 12px;
+  }
+  header {
+    height: 80vh;
+  }
+  .headerPng {
+    width: 45rem;
+  }
+  .iconContainer {
+    padding: 10px 0px 5px 14px;
+  }
+}

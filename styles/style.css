@@ -773,4 +773,24 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .shopGallary {
+    height: 100vh;
+  }
+  .cactusImgOne, .cactusImgTwo {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .cactusImgTwo {
+    margin-left: 0px;
+  }
+  .plantPortOne, .plantPortTwo {
+    width: calc(53% - 15px - 15px);
+    margin: 15px;
+  }
+  .plantPortOne {
+    margin-left: 0px;
+  }
+  .plantPortTwo {
+    margin-right: 0px;
+  }
 }

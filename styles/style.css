@@ -298,6 +298,10 @@ header {
   color: #000;
 }
 
+.navContainer li a:hover {
+  color: #abd373;
+}
+
 .bagIcon, .cartIcon {
   width: 1.5rem;
 }

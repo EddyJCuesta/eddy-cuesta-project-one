@@ -663,10 +663,10 @@ footer {
 
 @media (max-width: 1024px) {
   .navContainer {
-    padding: 10px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
   }
   header .newPlantBackground {
-    padding: 0px;
+    padding: 20px 0px 20px 0px;
   }
   .newPlantText h1 {
     font-size: 5rem;
@@ -675,10 +675,7 @@ footer {
     font-size: 1.6rem;
   }
   .shipPayServe.wrapper {
-    padding-top: 12px;
-  }
-  header {
-    height: 80vh;
+    padding-top: 68px;
   }
   .headerPng {
     width: 45rem;
@@ -697,12 +694,25 @@ footer {
     font-size: 2.5rem;
   }
   .ourProduct h2::before {
-    left: 30%;
+    left: 24%;
   }
   .ourProduct h2::after {
-    left: 30%;
+    left: 68%;
   }
   .imageBox img {
     width: 100%;
+  }
+  .cactusImgOne, .cactusImgTwo {
+    background-position: center;
+    padding: 0px 0px 0px 29px;
+  }
+  .latestPostSection h2::before {
+    left: 25%;
+  }
+  .latestPostSection h2::after {
+    left: 25%;
+  }
+  .latestPostTitle {
+    margin-top: 50px;
   }
 }

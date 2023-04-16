@@ -466,8 +466,8 @@ footer {
     padding-left: 5px;
 }
 
-//  THIS IS THE MEDIA QUERIES SECTION
-// HEADER SECTION MAX-WIDTH 1024PX
+//  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
+//  THIS IS THE HEADER SECTION 
 @media (max-width: 1024px) {
     .discountBar .wrapper {
         display: flex;
@@ -569,8 +569,8 @@ footer {
         background-size: 106rem 43rem;
     }
 }
-// THIS IS THE MEDIA QUERIES SECTION
-// HEADER SECTION MAX-WIDTH 768PX
+// THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 768PX
+// THIS IS THE HEADER SECTION 
 @media (max-width: 768px) {
     .navContainer ul {
         width: 50%;
@@ -652,3 +652,9 @@ footer {
         font-size: 1.5rem;
     }
 }
+// THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 320PX
+// THIS IS THE HEADER SECTION
+@media (max-width: 320px) {
+
+}
+

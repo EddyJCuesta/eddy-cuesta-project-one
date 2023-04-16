@@ -597,6 +597,10 @@ footer {
   height: 38vh;
 }
 
+.footerContainer .logoFooter {
+  padding-bottom: 10px;
+}
+
 .footerContainer p {
   width: 25rem;
   line-height: 2.5rem;
@@ -612,8 +616,24 @@ footer {
 
 .flexLinks ul li {
   list-style: none;
+  padding-bottom: 11px;
+}
+
+.flexLinks h4 {
+  margin-bottom: 30px;
 }
 
 .number {
   display: block;
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 15px 8px 9px 8px;
+  margin: 25px 10px 0px 0px;
 }

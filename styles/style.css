@@ -662,6 +662,13 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  .discountBar .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cadEng {
+    justify-content: flex-end;
+  }
   .navContainer {
     padding: 15px 0px 15px 0px;
   }
@@ -683,6 +690,12 @@ footer {
   .iconContainer {
     padding: 10px 0px 5px 14px;
   }
+  .ourProduct h2::before {
+    left: 24%;
+  }
+  .ourProduct h2::after {
+    right: 24%;
+  }
   .productImgContainer {
     width: 100%;
     justify-content: center;
@@ -693,12 +706,6 @@ footer {
   h2 {
     font-size: 2.5rem;
   }
-  .ourProduct h2::before {
-    left: 24%;
-  }
-  .ourProduct h2::after {
-    left: 68%;
-  }
   .imageBox img {
     width: 100%;
   }
@@ -706,14 +713,14 @@ footer {
     background-position: center;
     padding: 0px 0px 0px 29px;
   }
-  .latestPostSection h2::before {
-    left: 25%;
-  }
-  .latestPostSection h2::after {
-    left: 25%;
-  }
   .latestPostTitle {
     margin-top: 50px;
+  }
+  .latestPostSection h2::before {
+    left: 24%;
+  }
+  .latestPostSection h2::after {
+    right: 25%;
   }
   .postBackgroundThree {
     visibility: hidden;

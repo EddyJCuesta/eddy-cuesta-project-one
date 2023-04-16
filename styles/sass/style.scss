@@ -711,5 +711,15 @@ footer {
     .iconContainer p {
         padding-left: 5px;
     }
+    // THIS IS THE OUR PRODUCT SECTION
+    .ourProduct h2 {
+        font-size: 1.9rem;
+    }
+    .ourProduct h2::before {
+        left: 4%;
+    }
+    .ourProduct h2::after {
+        right: 4%;
+    }
 }
 

@@ -580,7 +580,7 @@ h2 {
 }
 
 footer {
-  height: 38vh;
+  height: 43vh;
   background-image: url(../assets/footer.jpg);
   background-size: cover;
 }
@@ -636,4 +636,31 @@ footer {
   border: 1px solid black;
   padding: 15px 8px 9px 8px;
   margin: 25px 10px 0px 0px;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: #abd373;
+}
+
+.underLine {
+  display: flex;
+  justify-content: center;
+}
+
+.pronia2023 {
+  text-align: center;
+  color: #abd373;
+  padding-left: 5px;
+}
+
+.cCircle {
+  color: #abd373;
+  border: 2px solid #abd373;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  padding: 0px 0px 15px 3px;
+  margin-top: 10px;
 }

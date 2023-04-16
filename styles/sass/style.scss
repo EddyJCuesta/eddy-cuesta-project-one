@@ -469,11 +469,7 @@ footer {
 //  THIS IS THE MEDIA QUERIES SECTION
 // HEADER SECTION MAX-WIDTH 1024PX
 @media (max-width: 1024px) {
-    .wrapper {
-        max-width: 1200px;
-        margin: 0 auto;
-        width: 80%;
-    }
+   
     .navContainer {
         padding: 10px 0px 10px 0px;
     }
@@ -497,5 +493,25 @@ footer {
     }
     .iconContainer {
         padding: 10px 0px 5px 14px;
+    }
+    // THIS IS THE OUR PRODUCT SECTION
+    .productImgContainer {
+        width: 100%;
+        justify-content: center;
+    }
+    .imageBox {
+        width: 22%;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    .ourProduct h2::before {
+        left: 30%;
+    }
+    .ourProduct h2::after {
+        left: 30%;
+    }
+    .imageBox img {
+        width: 100%;
     }
 }

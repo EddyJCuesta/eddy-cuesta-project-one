@@ -713,6 +713,13 @@ footer {
     background-position: center;
     padding: 0px 0px 0px 29px;
   }
+  .latestPostSection {
+    height: 135vh;
+  }
+  .postFlexContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   .latestPostTitle {
     margin-top: 50px;
   }
@@ -721,6 +728,11 @@ footer {
   }
   .latestPostSection h2::after {
     right: 25%;
+  }
+  .postBackgroundOne,
+  .postBackgroundTwo,
+  .postBackgroundThree {
+    margin-bottom: 10px;
   }
   .postBackgroundOne {
     margin-right: 10px;

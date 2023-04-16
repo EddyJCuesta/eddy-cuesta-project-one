@@ -748,3 +748,14 @@ footer {
     background-size: 106rem 43rem;
   }
 }
+@media (max-width: 768px) {
+  .navContainer ul {
+    width: 50%;
+  }
+  .iconCar, .iconCred, .iconServe {
+    margin-right: 7px;
+  }
+  .iconContainer {
+    padding: 2px 0px 0px 2px;
+  }
+}

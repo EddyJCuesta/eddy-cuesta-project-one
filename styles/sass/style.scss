@@ -534,7 +534,7 @@ footer {
         right: 25%;
     }
     .postBackgroundThree {
-        visibility: hidden;
+        // visibility: hidden;
     }
     .postBackgroundOne {
         margin-right: 10px;
@@ -612,11 +612,34 @@ footer {
     // THIS IS THE LATEST POST SECTION
     .latestPostSection {
         margin-top: 80px;
+        height: 190vh;
     }
     .latestPostSection h2::before {
         left: 17%;
     }
     .latestPostSection h2::after {
         right: 17%;
+    }
+    .postFlexContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .postBackgroundOne,
+    .postBackgroundTwo,
+    .postBackgroundThree {
+        margin-bottom: 15px;
+    }
+    .flexLinks ul {
+        padding: 0px;
+        margin: 3px;
+    }
+    .flexLinks ul li {
+        padding-bottom: 4px;
+    }
+    .line {
+        margin-top: 10px;
+    }
+    footer h3 {
+        font-size: 1.5rem;
     }
 }

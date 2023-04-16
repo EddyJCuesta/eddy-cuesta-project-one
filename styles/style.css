@@ -724,4 +724,20 @@ footer {
   .contentPost img {
     width: 26rem;
   }
+  .footerContainer {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .footerContainer p {
+    width: 45rem;
+  }
+  .socialIcon {
+    margin: 5px 10px 0px 0px;
+  }
+  .mediaQText {
+    text-align: center;
+  }
+  .backgroundImg {
+    background-size: 106rem 43rem;
+  }
 }

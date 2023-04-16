@@ -572,4 +572,19 @@ footer {
     .iconContainer {
         padding: 2px 0px 0px 2px;
     }
+    .ourProduct h2::before {
+        left: 16%;
+    }
+    .ourProduct h2::after {
+        right: 16%;
+    }
+    .ourProductButtons button {
+        margin: 5px 10px 20px 10px;
+    }
+    .imageBox {
+        width: 25%;
+        align-content: end;
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -590,6 +590,7 @@ footer {
     // THIS IS THE SHOP NOW SECTION
     .shopGallary {
         height: 100vh;
+        margin-top: 40px;
     }
     .cactusImgOne, .cactusImgTwo {
         width: 100%;
@@ -607,5 +608,15 @@ footer {
     }
     .plantPortTwo {
         margin-right: 0px;
+    }
+    // THIS IS THE LATEST POST SECTION
+    .latestPostSection {
+        margin-top: 80px;
+    }
+    .latestPostSection h2::before {
+        left: 17%;
+    }
+    .latestPostSection h2::after {
+        right: 17%;
     }
 }

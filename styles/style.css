@@ -775,6 +775,7 @@ footer {
   }
   .shopGallary {
     height: 100vh;
+    margin-top: 40px;
   }
   .cactusImgOne, .cactusImgTwo {
     width: 100%;
@@ -792,5 +793,14 @@ footer {
   }
   .plantPortTwo {
     margin-right: 0px;
+  }
+  .latestPostSection {
+    margin-top: 80px;
+  }
+  .latestPostSection h2::before {
+    left: 17%;
+  }
+  .latestPostSection h2::after {
+    right: 17%;
   }
 }

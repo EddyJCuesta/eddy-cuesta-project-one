@@ -758,7 +758,9 @@ footer {
     text-align: center;
   }
   .backgroundImg {
-    background-size: 106rem 43rem;
+    background-size: contain;
+    background-position: bottom;
+    background-color: #d8e9d6;
   }
 }
 @media (max-width: 768px) {

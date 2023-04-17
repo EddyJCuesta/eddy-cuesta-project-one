@@ -459,7 +459,7 @@ footer {
 }
 
 .line {
-    height: 2px;
+    height: 1px;
     width: 100%;
     background-color: #abd373;
 }
@@ -755,4 +755,29 @@ footer {
     .contentPost {
         padding: 10px 10px 20px 10px;
     }
+    // THIS IS THE FOOTER SECTION
+    .footerContainer p {
+        width: 30rem;
+        margin-bottom: 0px;
+        line-height: 2rem;
+    }
+    .backgroundImg {
+        background-size: auto;
+        height: 50vh;
+    }
+    .flexLinks {
+        flex-wrap: wrap;
+        margin-bottom: 62px;
+    }
+    .footerContainer {
+        height: 45vh;
+    }
+    .flexLinks ul li {
+        padding-bottom: 2px;
+    }
+    .flexLinks h3 {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
 }

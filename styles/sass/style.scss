@@ -721,5 +721,25 @@ footer {
     .ourProduct h2::after {
         right: 4%;
     }
+    button {
+        width: 130px;
+    }
+    // THIS IS THE SHOP NOW SECTION
+    .cactusImgOne {
+        margin-bottom: 10px;
+    }
+    .cactusImgTwo {
+        margin-top: 10px;
+    }
+    .plantPortOne {
+        width: 46%;
+        margin: 0px 10px 0px 0px;
+    }
+    .plantPortTwo {
+        width: 46%;
+        margin: 0px 0px 0px 10px;
+    }
+    .shopNowContainer h2 {
+        font-size: 2.1rem;
+    }
 }
-

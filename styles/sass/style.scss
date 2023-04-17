@@ -742,4 +742,17 @@ footer {
     .shopNowContainer h2 {
         font-size: 2.1rem;
     }
+    // THIS IS THE LATEST POSTS SECTION
+    .latestPostSection h2 {
+        font-size: 1.9rem;
+    }
+    .latestPostSection h2::before {
+        left: 4%;
+    }
+    .latestPostSection h2::after {
+        right: 4%;
+    }
+    .contentPost {
+        padding: 10px 10px 20px 10px;
+    }
 }

@@ -467,12 +467,12 @@ h2 {
 // THIS IS THE CONTACT SECTION
 .contact {
     background-image: url(../assets/contact-header.jpg);
-    height: 30vh;
-    width: 100%;
-    background-size: cover;
+    height: 20vh;
+    background-size: 172rem 23rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
 }
 .flexLinksContact ul {
     padding-left: 0px;
@@ -487,6 +487,13 @@ h2 {
     height: 31vh;
 }
 
+.navConContact {
+    padding: 10px 0px 10px 0px;
+}
+
+p .helloEveryone {
+    font-size: 1rem;
+}
 //  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
 //  THIS IS THE HEADER SECTION 
 @media (max-width: 1024px) {

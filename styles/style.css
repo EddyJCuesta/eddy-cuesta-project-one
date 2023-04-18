@@ -663,12 +663,12 @@ h2 {
 
 .contact {
   background-image: url(../assets/contact-header.jpg);
-  height: 30vh;
-  width: 100%;
-  background-size: cover;
+  height: 20vh;
+  background-size: 172rem 23rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 }
 
 .flexLinksContact ul {
@@ -682,6 +682,14 @@ h2 {
 .backgroundImgContact {
   background-size: 173rem 34rem;
   height: 31vh;
+}
+
+.navConContact {
+  padding: 10px 0px 10px 0px;
+}
+
+p .helloEveryone {
+  font-size: 1rem;
 }
 
 @media (max-width: 1024px) {

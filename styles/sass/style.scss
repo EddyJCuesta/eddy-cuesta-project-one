@@ -563,6 +563,16 @@ textarea {
     border-bottom: 2px solid #f6f7fb;
     color: grey;
 }
+
+input[type="submit"] {
+    float: right;
+    padding: 7px;
+    color: white;
+    background:#abd373;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    }
 //  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
 //  THIS IS THE HEADER SECTION 
 @media (max-width: 1024px) {

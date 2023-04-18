@@ -505,6 +505,9 @@ p .helloEveryone {
 }
 .mainContact {
     height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 //  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
 //  THIS IS THE HEADER SECTION 

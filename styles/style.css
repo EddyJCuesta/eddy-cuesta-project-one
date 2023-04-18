@@ -704,6 +704,9 @@ p .helloEveryone {
 
 .mainContact {
   height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1024px) {

@@ -469,6 +469,17 @@ footer {
     color: #abd373;
     padding-left: 5px;
 }
+// THIS IS THE CONTACT SECTION
+.contact {
+    background-image: url(../assets/contact-header.jpg);
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 //  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
 //  THIS IS THE HEADER SECTION 

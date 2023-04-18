@@ -665,6 +665,16 @@ footer {
   padding-left: 5px;
 }
 
+.contact {
+  background-image: url(../assets/contact-header.jpg);
+  height: 30vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 1024px) {
   .discountBar .wrapper {
     display: flex;

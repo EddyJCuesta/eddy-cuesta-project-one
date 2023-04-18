@@ -16,7 +16,7 @@
         <!-- THIS IS THE NAV SECTION -->
         <nav>
             <div class="discountBar">
-                <div class="wrapper">
+                <div class="wrapperContact barFlex">
                         <p class="helloEveryone">HELLO EVERYONE 25% OFF ALL PRODUCTS</p>
                     <div class="cadEng">
                         <p>CAD</p>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="wrapper navContainer navConContact">
+            <div class="wrapperContact navContainer navConContact">
                 <div>
                     <img class="proniaLogo" src="./assets/logo.png" alt="Pronia logo">
                 </div>
@@ -50,38 +50,41 @@
         </div>
     </header>
     <!-- THIS IS THE MAIN SECTION -->
-    <main class="mainContact wrapper">
+    <main class="mainContact wrapperContact">
         <!-- THIS IS THE FORM SECTION -->
-        <div class="contactInfo">
-            <h2>Contact Info:</h2>
-            <p>Complete the form and our team will get back to you within 24 hours.</p>
-            <p>123 456 789</p>
-            <p>info@example.com</p>
-            <p>13, Your Address, Here</p>
+        <div class="contactBorder">
+            <div class="contactInfo">
+                <h2>Contact Info:</h2>
+                <p>Complete the form and our team will get back to you within 24 hours.</p>
+                <p>123 456 789</p>
+                <p>info@example.com</p>
+                <p>13, Your Address, Here</p>
+            </div>
+            <form action="" method="post">
+                <label for="firstName"></label>
+                <input type="text" placeholder="First Name*" name="firstName" id="firstName" required>
+
+                <label for="lastName"></label>
+                <input type="text" placeholder="Last Name*" name="lastName" id="lasttName" required><br>
+
+                <label for="phone"></label>
+                <input type="tel" placeholder="Phone*" name="phone" id="phone" required>
+
+                <label for="email"></label>
+                <input type="email" placeholder="Email*" name="email" id="email" required><br>
+
+                <label for="message"></label>
+                <textarea name="message" placeholder="Message" id="message" rows="5" required></textarea><br>
+
+                <input type="submit" value="POST COMMENT">
+            </form>
         </div>
-        <form action="" method="post">
-            <label for="firstName"></label>
-            <input type="text" placeholder="First Name*" name="firstName" id="firstName" required>
-
-            <label for="lastName"></label>
-            <input type="text" placeholder="Last Name*" name="lastName" id="lasttName" required><br>
-
-            <label for="phone"></label>
-            <input type="tel" placeholder="Phone*" name="phone" id="phone" required>
-
-            <label for="email"></label>
-            <input type="email" placeholder="Email*" name="email" id="email" required><br>
-
-            <label for="message"></label>
-            <textarea name="message" placeholder="Message" id="message" rows="5" required></textarea>
-
-            <input type="submit" value="POST COMMENT">
-        </form>
+        
     </main>
     <footer>
         <!-- THIS IS THE FOOTER SECTION -->
             <div class="backgroundImg backgroundImgContact">
-            <div class="wrapper">
+            <div class="wrapperContact">
             <div class="footerContainer footerContainerContact">
                <div class="mediaQText">
                     <img class="proniaLogo" src="./assets/logo.png" alt="Pronia logo">

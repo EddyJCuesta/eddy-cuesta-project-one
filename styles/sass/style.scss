@@ -471,6 +471,10 @@ h2 {
     margin: 0 auto;
     width: 45%;
 }
+.wrapperContact.barFlex {
+    display: flex;
+    justify-content: space-between;
+}
 .contact {
     background-image: url(../assets/contact-header.jpg);
     height: 20vh;
@@ -504,16 +508,26 @@ p .helloEveryone {
     height: 30vh;
 }
 .mainContact {
-    height: 39vh;
+    height: 36vh;
+}
+
+.contactBorder {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 33rem;
+    margin-top: 34px;
 }
 
 .contactInfo {
     background-image: url(../assets/contact.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
+    width: 30%;
+    height: 33rem;
 }
 //  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
 //  THIS IS THE HEADER SECTION 

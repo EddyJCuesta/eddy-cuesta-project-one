@@ -391,11 +391,6 @@ h2 {
 }
 
 // THIS IS THE FOOTER SECTION
-footer {
-    height: 43vh;
-    
-}
-
 .backgroundImg {
     background-image: url(../assets/footer.jpg);
     background-size: 174rem 47rem;
@@ -479,7 +474,18 @@ footer {
     justify-content: center;
     align-items: center;
 }
+.flexLinksContact ul {
+    padding-left: 0px;
+}
 
+.footerContainerContact {
+    height: 27vh;
+}
+
+.backgroundImgContact {
+    background-size: 173rem 34rem;
+    height: 31vh;
+}
 
 //  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
 //  THIS IS THE HEADER SECTION 

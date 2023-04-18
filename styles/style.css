@@ -587,10 +587,6 @@ h2 {
   width: 28rem;
 }
 
-footer {
-  height: 43vh;
-}
-
 .backgroundImg {
   background-image: url(../assets/footer.jpg);
   background-size: 174rem 47rem;
@@ -673,6 +669,19 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flexLinksContact ul {
+  padding-left: 0px;
+}
+
+.footerContainerContact {
+  height: 27vh;
+}
+
+.backgroundImgContact {
+  background-size: 173rem 34rem;
+  height: 31vh;
 }
 
 @media (max-width: 1024px) {

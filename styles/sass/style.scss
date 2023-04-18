@@ -504,10 +504,16 @@ p .helloEveryone {
     height: 30vh;
 }
 .mainContact {
-    height: 33vh;
+    height: 39vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contactInfo {
+    background-image: url(../assets/contact.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 //  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
 //  THIS IS THE HEADER SECTION 

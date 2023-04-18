@@ -703,10 +703,16 @@ p .helloEveryone {
 }
 
 .mainContact {
-  height: 33vh;
+  height: 39vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contactInfo {
+  background-image: url(../assets/contact.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 1024px) {

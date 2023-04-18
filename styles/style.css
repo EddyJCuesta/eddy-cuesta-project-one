@@ -692,6 +692,10 @@ p .helloEveryone {
   font-size: 1rem;
 }
 
+.headerContact {
+  height: 46vh;
+}
+
 @media (max-width: 1024px) {
   .discountBar .wrapper {
     display: flex;

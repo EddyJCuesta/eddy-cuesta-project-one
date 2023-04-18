@@ -737,6 +737,19 @@ p .helloEveryone {
   text-align: left;
 }
 
+form {
+  width: 68%;
+  height: inherit;
+}
+
+input[type=text] {
+  margin: 40px 5px 5px 5px;
+  width: calc(50% - 5px - 5px - 5px);
+  border: none;
+  border-bottom: 2px solid #f6f7fb;
+  color: grey;
+}
+
 @media (max-width: 1024px) {
   .discountBar .wrapper {
     display: flex;

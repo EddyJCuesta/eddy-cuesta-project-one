@@ -465,6 +465,12 @@ h2 {
     padding-left: 5px;
 }
 // THIS IS THE CONTACT SECTION
+
+.wrapperContact {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 45%;
+}
 .contact {
     background-image: url(../assets/contact-header.jpg);
     height: 20vh;
@@ -483,7 +489,7 @@ h2 {
 }
 
 .backgroundImgContact {
-    background-size: 173rem 34rem;
+    background-size: 173rem 33rem;
     height: 31vh;
 }
 
@@ -495,7 +501,10 @@ p .helloEveryone {
     font-size: 1rem;
 }
 .headerContact {
-    height: 46vh;
+    height: 30vh;
+}
+.mainContact {
+    height: 33vh;
 }
 //  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
 //  THIS IS THE HEADER SECTION 

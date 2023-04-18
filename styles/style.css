@@ -661,6 +661,12 @@ h2 {
   padding-left: 5px;
 }
 
+.wrapperContact {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 45%;
+}
+
 .contact {
   background-image: url(../assets/contact-header.jpg);
   height: 20vh;
@@ -680,7 +686,7 @@ h2 {
 }
 
 .backgroundImgContact {
-  background-size: 173rem 34rem;
+  background-size: 173rem 33rem;
   height: 31vh;
 }
 
@@ -693,7 +699,11 @@ p .helloEveryone {
 }
 
 .headerContact {
-  height: 46vh;
+  height: 30vh;
+}
+
+.mainContact {
+  height: 33vh;
 }
 
 @media (max-width: 1024px) {

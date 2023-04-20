@@ -874,6 +874,12 @@ input[type=submit] {
     background-position: bottom;
     background-color: #d8e9d6;
   }
+  .navConContact {
+    padding: 8px 0px 8px 0px;
+  }
+  .navConContact ul {
+    width: 46%;
+  }
 }
 @media (max-width: 768px) {
   .navContainer ul {

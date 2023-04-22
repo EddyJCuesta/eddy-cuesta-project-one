@@ -73,7 +73,7 @@ input[type=text] {
     margin: 40px 5px 5px 5px;
     width: calc(50% - 5px - 5px - 5px);
     border: none;
-    border-bottom: 2px solid #f6f7fb;
+    border-bottom: 2px solid $faintBlueColor;
     color: grey;
     padding: 10px 0px;
 }
@@ -81,7 +81,7 @@ input[id=phone],[id=email]{
     margin: 40px 5px 5px 5px;
     width: calc(50% - 5px - 5px - 5px);
     border: none;
-    border-bottom: 2px solid #f6f7fb;
+    border-bottom: 2px solid $faintBlueColor;
     color: grey;
     padding: 10px 0px;
 }
@@ -89,7 +89,7 @@ textarea {
     margin: 40px 5px 5px 5px;
     width: calc(100% - 5px - 5px - 5px);
     border: none;
-    border-bottom: 2px solid #f6f7fb;
+    border-bottom: 2px solid $faintBlueColor;
     color: grey;
     height: 14rem;
 }

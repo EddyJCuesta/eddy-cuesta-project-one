@@ -50,7 +50,7 @@ header {
 }
 
 .navContainer li a:hover {
-    color: #abd373;
+    color: $greenColor;
 }
 
 .bagIcon, .cartIcon {
@@ -58,7 +58,7 @@ header {
 }
 
 header .newPlantBackground {
-    background-color: #F8EEE5;
+    background-color: $peachColor;
     padding: 40px 0px 40px 0px;
 }
 

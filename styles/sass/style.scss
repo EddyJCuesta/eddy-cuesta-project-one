@@ -1,5 +1,6 @@
 @use "./partials/setup";
 @use "./partials/genericStyle";
+@use "./partials/header";
 // ColourPalette
 // Green #abd373
 // Darkey Grey #4c4c4c
@@ -19,123 +20,6 @@
 // Rubik,Light(300)
 
 
-// THIS IS THE HEADER SECTION
-header {
-    height: 100vh;
-}
-
-.discountBar {
-    background-color: #abd373;
-    color: white;
-}
-.discountBar .wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
-.cadEng {
-    display: flex;
-    width: 10%;
-    justify-content: space-around;
-}
-.cadEng p {
-    padding-left: 16px;
-}
-
-.fa-solid.fa-bars {
-    display: none;
-}
-
-.navContainer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0px 20px 0px;
-}
-
-.proniaLogo {
-    width: 7rem;
-}
-
-.navContainer ul {
-    display: flex;
-    width: 30%;
-    justify-content: space-evenly;
-    list-style: none;
-    padding-left: 0;
-}
-
-.navContainer li a {
-    text-decoration: none;
-    color: #000;
-}
-
-.navContainer li a:hover {
-    color: #abd373;
-}
-
-.bagIcon, .cartIcon {
-    width: 1.5rem;
-}
-
-header .newPlantBackground {
-    background-color: #F8EEE5;
-    padding: 40px 0px 40px 0px;
-}
-
-.newPlantBackground .wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-
-.newPlantText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.newPlantText h1 {
-    font-size: 7rem;
-    margin-bottom: 0px;
-}
-
-.newPlantText .sixtyFive {
-    display: block;
-    font-weight: 300;
-    font-size: 4rem;
-}
-
-.newPlantText p {
-    font-size: 1.79rem;
-    margin-bottom: 50px;
-}
-
-.shipPayServe.wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 70px;
-}
-
-.iconCar, .iconCred, .iconServe {
-    width: 4rem;
-    height: 4rem;
-    align-self: center;
-    margin-right: 20px;
-}
-
-.shipPayServe.wrapper .iconText {
-    display: block;
-    font-size: 1.7rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.iconContainer {
-    display: flex;
-    border: 2px dotted #abd373;
-    width: 31%;
-    padding: 10px 0px 5px 40px;
-    border-radius: 6px;
-}
 
 // THIS IS THE OUR PRODUCTS SECTION
 section .ourProduct {

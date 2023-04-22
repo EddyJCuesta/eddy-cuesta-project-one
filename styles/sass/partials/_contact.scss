@@ -1,3 +1,4 @@
+@use "./variables" as *;
 // THIS IS THE CONTACT SECTION
 .headerContact {
     height: 38.5vh;
@@ -97,7 +98,7 @@ input[type="submit"] {
     float: right;
     padding: 18px;
     color: white;
-    background:#abd373;
+    background: $greenColor;
     border-radius: 5px;
     border: none;
     margin-top: 40px;

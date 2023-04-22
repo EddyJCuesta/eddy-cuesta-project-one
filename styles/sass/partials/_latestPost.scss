@@ -1,3 +1,4 @@
+@use "./variables" as *;
 // THIS IS THE SECTION FOR LATEST POSTS
 .latestPostSection {
     height: 80vh;
@@ -16,7 +17,7 @@
     display: block;
     width: 50px;
     height: 2px;
-    background: #abd373;
+    background: $greenColor;
     position: absolute;
     left: 32%;
     top: 50%;
@@ -28,7 +29,7 @@
     display: block;
     width: 50px;
     height: 2px;
-    background: #abd373;
+    background: $greenColor;
     position: absolute;
     right: 32%;
     top: 50%;
@@ -55,7 +56,7 @@
 
 .admin p {
     margin-right: 20px;
-    color: #abd373;
+    color: $greenColor;
 }
 
 .latestPostSection h3 span {

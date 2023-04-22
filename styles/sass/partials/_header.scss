@@ -1,10 +1,11 @@
+@use "./variables" as *;
 // THIS IS THE HEADER SECTION
 header {
     height: 100vh;
 }
 
 .discountBar {
-    background-color: #abd373;
+    background-color: $greenColor;
     color: white;
 }
 .discountBar .wrapper {
@@ -110,7 +111,7 @@ header .newPlantBackground {
 
 .iconContainer {
     display: flex;
-    border: 2px dotted #abd373;
+    border: 2px dotted $greenColor;
     width: 31%;
     padding: 10px 0px 5px 40px;
     border-radius: 6px;

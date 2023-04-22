@@ -1,3 +1,4 @@
+@use "./variables" as *;
 // THIS IS THE OUR PRODUCTS SECTION
 section .ourProduct {
     height: 100vh;
@@ -19,7 +20,7 @@ h2 {
     display: block;
     width: 50px;
     height: 2px;
-    background: #abd373;
+    background: $greenColor;
     position: absolute;
     left: 32%;
     top: 50%;
@@ -31,7 +32,7 @@ h2 {
     display: block;
     width: 50px;
     height: 2px;
-    background: #abd373;
+    background: $greenColor;
     position: absolute;
     right: 32%;
     top: 50%;
@@ -66,5 +67,5 @@ h2 {
 }
 
 .ourProduct .dollarColor {
-    color: #abd373;
+    color: $greenColor;
 }

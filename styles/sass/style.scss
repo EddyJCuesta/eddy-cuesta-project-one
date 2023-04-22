@@ -1,4 +1,5 @@
 @use "./partials/setup";
+@use "./partials/genericStyle";
 // ColourPalette
 // Green #abd373
 // Darkey Grey #4c4c4c
@@ -17,36 +18,6 @@
 // Sub-Heading Text (60% OFF)
 // Rubik,Light(300)
 
-// GENERIC STYLING
-html {
-    font-size: 62.5%;
-}
-
-body, p {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-}
-
-body, header {
-    margin: 0;
-    padding: 0;
-}
-
-.wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 60%;
-}
-
-button {
-    width: 150px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    background-color: #abd373;
-    color: #fff;
-}
 
 // THIS IS THE HEADER SECTION
 header {

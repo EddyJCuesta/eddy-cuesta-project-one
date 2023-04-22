@@ -867,11 +867,33 @@ input[type=submit] {
     background-position: bottom;
     background-color: #d8e9d6;
   }
-  .navConContact {
-    padding: 8px 0px 8px 0px;
+  form {
+    width: 100%;
+    padding: 20px 40px 40px 40px;
   }
-  .navConContact ul {
-    width: 46%;
+  .mainContact {
+    height: 100vh;
+  }
+  .contactBorder {
+    flex-direction: column;
+    height: 74rem;
+  }
+  .contactInfo {
+    background-size: 64rem 92rem;
+    width: 100%;
+    height: 24rem;
+  }
+  .contactInfo h2 {
+    margin-top: 0px;
+  }
+  .contactInfo p {
+    margin-bottom: 0px;
+  }
+  .contactEmail {
+    margin-top: 0px;
+  }
+  .contactAddress {
+    padding-bottom: 15px;
   }
 }
 @media (max-width: 768px) {

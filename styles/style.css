@@ -974,6 +974,13 @@ input[type=submit] {
   footer h3 {
     font-size: 1.5rem;
   }
+  .contact {
+    height: 18vh;
+    background-size: contain;
+  }
+  .headerContact {
+    height: 30vh;
+  }
 }
 @media (max-width: 320px) {
   header {

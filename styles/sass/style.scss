@@ -673,7 +673,7 @@ input[type="submit"] {
         background-position: bottom;
         background-color: #d8e9d6;
     }
-    // THIS IS THE CONTACT PAGE
+    // THIS IS THE CONTACT PAGE AT 1024 MAX-WIDTH
     form {
         width: 100%;
         padding: 20px 40px 40px 40px;
@@ -784,6 +784,14 @@ input[type="submit"] {
     }
     footer h3 {
         font-size: 1.5rem;
+    }
+    // THIS IS THE CONTACT PAGE AT 768 MAX-WIDTH
+    .contact {
+        height: 18vh;
+        background-size: contain;
+    }
+    .headerContact {
+        height: 30vh;
     }
 }
 // THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 320PX

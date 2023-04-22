@@ -1,3 +1,4 @@
+@use "./variables" as *;
 //  THIS IS THE MEDIA QUERIES SECTION MAX-WIDTH 1024PX
 //  THIS IS THE HEADER SECTION 
 @media (max-width: 1024px) {
@@ -100,7 +101,7 @@
     .backgroundImg {
         background-size: contain;
         background-position: bottom;
-        background-color: #d8e9d6;
+        background-color: $lightGrey;
     }
     // THIS IS THE CONTACT PAGE AT 1024 MAX-WIDTH
     form {
@@ -331,7 +332,7 @@
     .backgroundImg {
         background-size: contain;
         background-position: bottom;
-        background-color: #d8e9d6;
+        background-color: $lightGrey;
         height: 76vh;
     }
     .flexLinks {

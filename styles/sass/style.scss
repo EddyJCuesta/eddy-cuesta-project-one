@@ -921,5 +921,30 @@ input[type="submit"] {
         margin-top: 10px;
         margin-bottom: 5px;
     }
+    // THIS IS THE CONTACT SECTION MAX-WIDTH 320PX
+    .contact {
+        height: 9vh;
+    }
+    .headerContact {
+        height: 32vh;
+    }
+    .contactInfo {
+        background-size: 30rem 40rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    .contactBorder {
+        height: 93rem;
+        margin-bottom: 80px;
+    }
+    input[type="text"], {
+        width: calc(100% - 5px - 5px - 5px);
+    }
+    input[id="phone"],[id="email"] {
+        width: calc(100% - 5px - 5px - 5px);
+    }
 
+    
 }

@@ -274,6 +274,7 @@ header {
 .itemCart {
   position: relative;
   text-align: right;
+  display: flex;
 }
 
 .itemCart span {
@@ -284,7 +285,7 @@ header {
   align-items: center;
   color: #fff;
   position: absolute;
-  top: -8px;
+  top: 6px;
   left: 62%;
   padding: 0px 4px;
 }

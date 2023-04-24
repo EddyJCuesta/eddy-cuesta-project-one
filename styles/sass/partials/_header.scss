@@ -18,6 +18,24 @@ header {
     width: 10%;
     justify-content: space-around;
 }
+
+.itemCart {
+    position: relative;
+    text-align: right;
+}
+
+.itemCart span {
+    background-color: $greenColor;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $whiteColor;
+    position: absolute;
+    top: -8px;
+    left: 62%;
+    padding: 0px 4px;
+}
 .cadEng p {
     padding-left: 16px;
 }

@@ -271,6 +271,24 @@ header {
   justify-content: space-around;
 }
 
+.itemCart {
+  position: relative;
+  text-align: right;
+}
+
+.itemCart span {
+  background-color: #abd373;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top: -8px;
+  left: 62%;
+  padding: 0px 4px;
+}
+
 .cadEng p {
   padding-left: 16px;
 }
@@ -998,6 +1016,9 @@ input[type=submit] {
     height: 38px;
   }
   .navContainer ul, .bagIcon {
+    display: none;
+  }
+  .itemCart span {
     display: none;
   }
   .wrapper {

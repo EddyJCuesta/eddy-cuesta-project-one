@@ -230,6 +230,7 @@
     header {
         height: 70vh;
     }
+   
     .fa-solid.fa-bars {
         display: block;
         position: absolute;
@@ -241,9 +242,9 @@
         width: 58px;
         height: 38px;
     }
-    .navContainer ul, .bagIcon {
-        display: none;
-    }
+    // .navContainer ul, .bagIcon {
+    //     display: none;
+    // }
     .itemCart span{
         display: none;
     }

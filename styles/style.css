@@ -316,6 +316,10 @@ header {
   padding-left: 0;
 }
 
+.show {
+  display: block;
+}
+
 .navContainer li a {
   text-decoration: none;
   color: #000;
@@ -1015,9 +1019,6 @@ input[type=submit] {
     font-size: 4rem;
     width: 58px;
     height: 38px;
-  }
-  .navContainer ul, .bagIcon {
-    display: none;
   }
   .itemCart span {
     display: none;

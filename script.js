@@ -3,9 +3,17 @@ console.log(hamburger);
 const navMenu = document.querySelector('.navBar');
 console.log(navMenu);
 
-hamburger.addEventListener("click", function(){
-    navMenu.classList.toggle('show');
-    console.log('toggle');
-    // navMenu.classList.toggle('hamburger');
-    
+hamburger.addEventListener('click', () => {
+    if(navMenu.style.display === 'none') {
+        navMenu.style.display = "block";
+    } else {
+        navMenu.style.display = 'none';
+    }
+});
+
+const links = document.querySelectorAll('.navBar a');
+links.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.style.display = 'none';
+    });
 });

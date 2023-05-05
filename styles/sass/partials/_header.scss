@@ -62,12 +62,6 @@ header {
     list-style: none;
     padding-left: 0;
 }
-.show {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .navContainer li a {
     text-decoration: none;
     color: $blackColor;

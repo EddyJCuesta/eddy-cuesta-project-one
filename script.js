@@ -1,8 +1,14 @@
+// this function is for when the hamburger menu appears at media query 320px, you click on the hamburger menu and the nav list appear(Home/Blog/Contact)
+
+// Target the Hamburger (i) from font-awesome and save to a variable
 const hamburger = document.querySelector('#hamburger');
 console.log(hamburger);
+// Target the Navbar and save to a variable
 const navMenu = document.querySelector('.navBar');
 console.log(navMenu);
-
+// when the hamburger image is clicked and the NavBar is hidden,
+// The Nav bar containing (Home/Blog/Contact) will appear
+// when the Hamburger menu is clicked while the navBar is visable, the navbar will disapear 
 hamburger.addEventListener('click', () => {
     if(navMenu.style.display === 'none') {
         navMenu.style.display = "block";

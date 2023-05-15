@@ -35,3 +35,43 @@ for(let i = 0; i < images.length; i++){
         window.open(this.src, "Image", "width=400,height=400");
     }
 }
+
+// add item to cart
+// when you click on add to cart img the cart number will go up
+let cart = [];
+let count = 0;
+
+const counter = document.getElementById('.cartNum');
+const cartIcon = document.querySelectorAll('.cartIcon');
+const nameItem = document.querySelectorAll('.nameItem')[0].innerText; 
+const dollarColor = document.querySelectorAll('.dollarColor');
+
+const itemContainer = document.querySelectorAll('.imageBox');
+
+
+for(let i = 0; i < dollarColor.length; i++){
+   dollarColor[i].addEventListener('click', (event)=>{
+    const priceOfProduct = event.target.innerText;
+    cart.push(priceOfProduct);
+    console.log(cart);
+}); 
+}
+
+for(let r = 0; r < nameItem.length; r++){
+    nameItem[r].addEventListener('click', (event)=> {
+        const nameOfProduct = event.target.innerText;
+        cart.push(nameOfProduct);
+        console.log(cart);
+    })
+}
+
+// console.log(counter);
+// function addToCart(item, price){
+//     cart.push(item);
+//     count += price;
+//     console.log(item + " has been added to the cart.");
+//     console.log("Cart total is now: $" + count);
+// }
+
+// addToCart(item.nameItem,price.dollarColor);
+

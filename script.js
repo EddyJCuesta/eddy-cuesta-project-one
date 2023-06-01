@@ -36,23 +36,71 @@ for(let i = 0; i < images.length; i++){
     }
 }
 
-let list = [
-    {
-        image: './assets/p2.jpeg',
-        name: 'American Marigold',
-        price: '$23.45'
-    },
-    {
-        image: './assets/p1.jpeg',
-        name: 'Black Eyed Susan',
-        price: '$25.45'
-    },
-    {
-        image: './assets/p3.jpeg',
-        name: 'Bleeding Heart',
-        price: '$30.45'  
-    }
-]
+
+//  // adding the items to the cart, make the item number increase
+//  document.addEventListener("DOMContentLoaded", function() {
+//     // Get all the cart icons
+//     const cartIcons = document.querySelectorAll(".cartIcon");
+//     // Get the cart number element
+//     const cartNumElement = document.getElementById("cartNum");
+//     // Set the initial cart count
+//     let cartCount = 0;
+
+//     // Add click event listener to each cart icon
+//     cartIcons.forEach(function(icon) {
+//         icon.addEventListener("click", function() {
+//             // Increase the cart count
+//             cartCount++;
+//             // Update the cart number element
+//             cartNumElement.innerText = cartCount;
+//         });
+//     });
+// });
+
+// Get the cart element
+const cart = document.getElementById("cartNum");
+
+// Get all the cart icons
+const cartIcons = document.getElementsByClassName("cartIcon");
+
+// Initialize the cart counter
+let cartCounter = 0;
+
+// Iterate over each cart icon
+Array.from(cartIcons).forEach((cartIcon) => {
+  // Add a click event listener to each cart icon
+  cartIcon.addEventListener("click", () => {
+    // Increment the cart counter
+    cartCounter++;
+    
+    // Update the cart number display
+    cart.textContent = cartCounter;
+    
+    // Create a new cart item
+    const cartItem = document.createElement("div");
+    cartItem.classList.add("cartItem");
+    
+    // Get the name and price of the item
+    const parentElement = cartIcon.parentNode.parentNode;
+    const nameElement = parentElement.querySelector(".nameItem");
+    const name = nameElement ? nameElement.textContent : "Unknown Item";
+    
+    const priceElement = parentElement.querySelector(".dollarColor");
+    const price = priceElement ? priceElement.textContent : "Unknown Price";
+    
+    // Set the HTML content of the cart item
+    cartItem.innerHTML = `
+      <span>${name}</span>
+      <span>${price}</span>
+    `;
+    
+    // Append the cart item to the cart
+    document.getElementById("cartContainer").appendChild(cartItem);
+  });
+});
+
+
+
 
 // const cartIcon = document.querySelectorAll('.cartIcon');
 // add item to cart
@@ -127,4 +175,3 @@ let list = [
 // }
 
 // addToCart(item.nameItem,price.dollarColor);
-

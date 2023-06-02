@@ -38,140 +38,53 @@ for(let i = 0; i < images.length; i++){
 
 
 //  // adding the items to the cart, make the item number increase
-//  document.addEventListener("DOMContentLoaded", function() {
-//     // Get all the cart icons
-//     const cartIcons = document.querySelectorAll(".cartIcon");
-//     // Get the cart number element
-//     const cartNumElement = document.getElementById("cartNum");
-//     // Set the initial cart count
-//     let cartCount = 0;
-
-//     // Add click event listener to each cart icon
-//     cartIcons.forEach(function(icon) {
-//         icon.addEventListener("click", function() {
-//             // Increase the cart count
-//             cartCount++;
-//             // Update the cart number element
-//             cartNumElement.innerText = cartCount;
-//         });
-//     });
-// });
-
-// Get the cart element
-const cart = document.getElementById("cartNum");
-
-// Get all the cart icons
-const cartIcons = document.getElementsByClassName("cartIcon");
-
-// Initialize the cart counter
-let cartCounter = 0;
-
-// Iterate over each cart icon
-Array.from(cartIcons).forEach((cartIcon) => {
-  // Add a click event listener to each cart icon
-  cartIcon.addEventListener("click", () => {
-    // Increment the cart counter
-    cartCounter++;
-    
-    // Update the cart number display
-    cart.textContent = cartCounter;
-    
-    // Create a new cart item
-    const cartItem = document.createElement("div");
-    cartItem.classList.add("cartItem");
-    
-    // Get the name and price of the item
-    const parentElement = cartIcon.parentNode.parentNode;
-    const nameElement = parentElement.querySelector(".nameItem");
-    const name = nameElement ? nameElement.textContent : "Unknown Item";
-    
-    const priceElement = parentElement.querySelector(".dollarColor");
-    const price = priceElement ? priceElement.textContent : "Unknown Price";
-    
-    // Set the HTML content of the cart item
-    cartItem.innerHTML = `
-      <span>${name}</span>
-      <span>${price}</span>
-    `;
-    
-    // Append the cart item to the cart
-    document.getElementById("cartContainer").appendChild(cartItem);
+document.addEventListener("DOMContentLoaded", function () {
+    const cart = document.getElementById("cartNum");
+    let cartCounter = 0;
+  
+    // Get the cart container and cart items
+    const cartContainer = document.getElementById("cartContainer");
+    const cartItems = document.getElementById("cartItems");
+  
+    // Get all the cart icons
+    const cartIcons = document.getElementsByClassName("cartIcon");
+  
+    // when an item icon is clicked, increase the counter
+    Array.from(cartIcons).forEach((cartIcon) => {
+      cartIcon.addEventListener("click", () => {
+        cartCounter++;
+        cart.textContent = cartCounter;
+  
+        // target the name and prices of each element
+        const parentElement = cartIcon.parentNode.parentNode;
+        const nameElement = parentElement.querySelector(".nameItem");
+        const name = nameElement ? nameElement.textContent : "Unknown Item";
+  
+        const priceElement = parentElement.querySelector(".dollarColor");
+        const price = priceElement ? priceElement.textContent : "Unknown Price";
+  
+        // Log the name and price to the console
+        console.log(`Item: ${name}, Price: ${price}`);
+  
+        // Create a new cart item element
+        const newItem = document.createElement("div");
+        newItem.textContent = `${name}: ${price}`;
+  
+        // Append the new cart item to the cart items container
+        cartItems.appendChild(newItem);
+  
+        // Show the cart items container
+        cartContainer.classList.add("show");
+      });
+    });
+  
+    // Add a click event listener to the cart container
+    cartContainer.addEventListener("click", () => {
+      // Toggle the visibility of the cart items container
+      cartContainer.classList.toggle("show");
+    });
   });
-});
-
-
-
-
-// const cartIcon = document.querySelectorAll('.cartIcon');
-// add item to cart
-// when you click on add to cart img the cart number will go up
-//     const addItemToCart = cartIcon.addEventListener('click', function(){
-    
-//     let nameItem = document.querySelector('.nameItem').value;
-//     let dollarColor = document.querySelector('.dollarColor').value;
-
-//     let cart = [{
-//         name: nameItem,
-//         price: dollarColor,
-//     }];
-
-//     for(let i = 0; i < list.length; i++){
-//         for(let j = 0; j < list[i].review.length; j++) {
-//             list[0].review[j].push(newData)
-//             console.log(list);
-//         }
-//     }
-//     console.log(addItemToCart);
-// })
-
-
-// let count = 0;
-
-// const counter = document.getElementById('.cartNum');
-
-// const nameItem = document.querySelectorAll('.nameItem'); 
-// const dollarColor = document.querySelectorAll('.dollarColor');
-
-// const itemContainer = document.querySelectorAll('.imageBox');
-// let priceOfProduct;
-// let nameOfProduct;
-
-
-
-
-// for(let i = 0; i < dollarColor.length; i++){
-//    dollarColor[i].addEventListener('click', (event)=>{
-//     priceOfProduct = event.target.innerText;
-//     cart.push(priceOfProduct);
-//     console.log(cart);
-// }); 
-// }
-
-// console.log(nameItem);
-
-// for(let i = 0; i < nameItem.length; i++){
-//     nameItem[i].addEventListener('click', (event)=> {
-//         nameOfProduct = event.target.innerText;
-//         cart.push(nameOfProduct);
-//         console.log(cart);
-//     })
-// }
-
-// for(let i = 0; i < cartIcon.length; i++){
-//     cartIcon[i].addEventListener('click', (event)=> {
-//         const  addToCart = event.target.innerText;
-//         cart.push(nameOfProduct, priceOfProduct);
-//         console.log(cart);
-//     })
-// }
-
-
-// console.log(counter);
-// function addToCart(item, price){
-//     cart.push(item);
-//     count += price;
-//     console.log(item + " has been added to the cart.");
-//     console.log("Cart total is now: $" + count);
-// }
-
-// addToCart(item.nameItem,price.dollarColor);
+  
+  
+  
+  
